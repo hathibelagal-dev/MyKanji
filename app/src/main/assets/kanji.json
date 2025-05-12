@@ -38,5 +38,15 @@
   {"kanji": "書", "meaning": "write, book"},
   {"kanji": "聞", "meaning": "hear, listen"},
   {"kanji": "国", "meaning": "country, nation"},
-  {"kanji": "道", "meaning": "way, road"}
+  {"kanji": "道", "meaning": "way, road"},
+  {"kanji": "天", "meaning": "heaven, sky"},
+  {"kanji": "気", "meaning": "spirit, air, mood"},
+  {"kanji": "心", "meaning": "heart, mind"},
+  {"kanji": "目", "meaning": "eye, vision"},
+  {"kanji": "足", "meaning": "foot, leg"},
+  {"kanji": "車", "meaning": "car, vehicle"},
+  {"kanji": "門", "meaning": "gate, door"},
+  {"kanji": "雨", "meaning": "rain"},
+  {"kanji": "白", "meaning": "white"},
+  {"kanji": "友", "meaning": "friend"}
 ]

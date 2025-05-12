@@ -19,6 +19,8 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
     private lateinit var kanjiItems: KanjiItems
 
+    private val kanjiQuestion: TextView by lazy { findViewById(R.id.kanji_question) }
+
     private val answer1: TextView by lazy { findViewById(R.id.answer_choice_1) }
     private val answer2: TextView by lazy { findViewById(R.id.answer_choice_2) }
     private val answer3: TextView by lazy { findViewById(R.id.answer_choice_3) }
@@ -83,12 +85,18 @@ class MainActivity : AppCompatActivity() {
             kanjiItems.resetNSeen(currentKanji)
             vibrator.vibrate(400)
         }
-        showKanji()
+        kanjiQuestion.animate().apply {
+            duration = 500
+            rotationYBy(360f)
+            withEndAction {
+                showKanji()
+            }
+        }
     }
 
     private fun showKanji() {
         val kanji = kanjiItems.getRandKanji()
-        findViewById<TextView>(R.id.kanji_question).text = kanji.kanji
+        kanjiQuestion.text = kanji.kanji
         val nSeenText = "Streak: ${kanji.nSeen + 1}"
         findViewById<TextView>(R.id.n_seen).text = nSeenText
 
