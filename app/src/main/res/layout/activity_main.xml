@@ -45,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/answer_choice_1"
+            android:textSize="24sp"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,16 +56,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/answer_choice_2"
+                android:textSize="24sp"
                 />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/answer_choice_3"
+                android:textSize="24sp"
                 />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/answer_choice_4"
+                android:textSize="24sp"
                 />
         </LinearLayout>
     </LinearLayout>

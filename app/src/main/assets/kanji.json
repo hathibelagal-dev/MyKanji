@@ -28,5 +28,15 @@
   {"kanji": "火", "meaning": "fire"},
   {"kanji": "金", "meaning": "gold, money, metal"},
   {"kanji": "時", "meaning": "time, hour"},
-  {"kanji": "力", "meaning": "power, strength"}
+  {"kanji": "力", "meaning": "power, strength"},
+  {"kanji": "入", "meaning": "enter, insert"},
+  {"kanji": "行", "meaning": "go, travel"},
+  {"kanji": "来", "meaning": "come, arrive"},
+  {"kanji": "食", "meaning": "eat, food"},
+  {"kanji": "飲", "meaning": "drink, beverage"},
+  {"kanji": "話", "meaning": "talk, speech"},
+  {"kanji": "書", "meaning": "write, book"},
+  {"kanji": "聞", "meaning": "hear, listen"},
+  {"kanji": "国", "meaning": "country, nation"},
+  {"kanji": "道", "meaning": "way, road"}
 ]

@@ -52,6 +52,20 @@ class KanjiItems(private var context: Context) {
         }
     }
 
+    fun resetNSeen(kanji: String) {
+        val prefs = context.getSharedPreferences("kanji_prefs", Context.MODE_PRIVATE)
+        val editor = prefs.edit()
+        editor.putInt(kanji, 0)
+        editor.apply()
+
+        for (item in kanjiList) {
+            if (item.kanji == kanji) {
+                item.nSeen = 0
+                break
+            }
+        }
+    }
+
     fun getRandKanji(): KanjiData {
         return kanjiList.random()
     }
