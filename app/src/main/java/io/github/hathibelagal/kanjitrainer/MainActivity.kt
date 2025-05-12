@@ -1,16 +1,24 @@
 package io.github.hathibelagal.kanjitrainer
 
+import android.annotation.SuppressLint
 import android.os.Bundle
+import android.view.View
+import android.widget.LinearLayout
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
-
-    private lateinit var gameDataHandler: GameDataHandler
     private lateinit var kanjiItems: KanjiItems
 
+    private val answer1: TextView by lazy { findViewById(R.id.answer_choice_1) }
+    private val answer2: TextView by lazy { findViewById(R.id.answer_choice_2) }
+    private val answer3: TextView by lazy { findViewById(R.id.answer_choice_3) }
+    private val answer4: TextView by lazy { findViewById(R.id.answer_choice_4) }
+
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -21,9 +29,57 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        gameDataHandler = GameDataHandler(getPreferences(MODE_PRIVATE))
         kanjiItems = KanjiItems(this)
-        kanjiItems.loadKanji()
+        kanjiItems.loadKanjiFromJSON()
 
+        showKanji()
+
+        answer1.setOnClickListener {
+            isCorrectAnswer(answer1.text.toString())
+        }
+        answer2.setOnClickListener {
+            isCorrectAnswer(answer2.text.toString())
+        }
+        answer3.setOnClickListener {
+            isCorrectAnswer(answer3.text.toString())
+        }
+        answer4.setOnClickListener {
+            isCorrectAnswer(answer4.text.toString())
+        }
+
+    }
+
+    private fun isCorrectAnswer(answer: String) {
+        showKanji()
+    }
+
+    private fun showKanji() {
+        val kanji = kanjiItems.getRandKanji()
+        findViewById<TextView>(R.id.kanji_question).text = kanji.kanji
+        var nSeenText = "Seen: ${kanji.nSeen + 1} times"
+        if(kanji.nSeen == 0) {
+            nSeenText = "You're seeing this for the first time!"
+        }
+        findViewById<TextView>(R.id.n_seen).text = nSeenText
+
+        val meanings = kanjiItems.getRandomMeanings(kanji.kanji, 3)
+        meanings.add(kanji.meaning)
+        meanings.shuffle()
+
+
+        if(kanji.nSeen == 0) {
+            answer1.text = kanji.meaning
+            findViewById<LinearLayout>(R.id.other_answers).visibility = View.GONE
+            findViewById<TextView>(R.id.answer_title).text = getString(R.string.correct_answer_is)
+        } else {
+            findViewById<TextView>(R.id.answer_title).text = getString(R.string.pick_an_answer)
+            findViewById<LinearLayout>(R.id.other_answers).visibility = View.VISIBLE
+            answer1.text = meanings[0]
+            answer2.text = meanings[1]
+            answer3.text = meanings[2]
+            answer4.text = meanings[3]
+        }
+
+        kanjiItems.incrementNSeen(kanji.kanji)
     }
 }
