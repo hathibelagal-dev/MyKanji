@@ -28,5 +28,19 @@
         <button class="choice-button">Eat</button>
         <button class="choice-button">Sleep</button>
     </div>
+    <audio id="click-sound" src="click.mp3" preload="auto"></audio>
+
+    <script>
+        const sound = document.getElementById("click-sound");
+        sound.volume = 0.5;
+        document.querySelectorAll(".choice-button").forEach(button => {
+          button.addEventListener("click", () => {
+            sound.currentTime = 0;
+            sound.play().catch(e => {
+              console.log("Sound play failed:", e);
+            });
+          });
+        });
+    </script>
 </body>
 </html>
