@@ -14,10 +14,14 @@
     <div class="header">
         My Kanji
     </div>
+    <div class="n-kanji-seen">
+        <span id="seen-count"></span> / <span id="kanji-count"></span> kanji seen
+    </div>
     <div class="kanji-display-cat kanji-display-cat1">
     </div>
     <div class="kanji-display">
-        食べる
+        <div class="streak">Streak: 0</div>
+        <div class="kanji-text">食べる</div>
     </div>
     <div class="choices-question">
         What does it mean?
@@ -28,6 +32,8 @@
         <button class="choice-button">Eat</button>
         <button class="choice-button">Sleep</button>
     </div>
+    <script src="kanji.js"></script>
+    <script src="game.js"></script>
     <audio id="click-sound" src="click.mp3" preload="auto"></audio>
 
     <script>
@@ -42,5 +48,6 @@
           });
         });
     </script>
+
 </body>
 </html>
