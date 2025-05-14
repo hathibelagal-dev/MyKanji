@@ -1,135 +1,147 @@
 var kanji = {
   "items": [
     {
-      "en": "one person, alone",
+      "en": "One person, alone",
       "jp": "一人"
     },
     {
-      "en": "two people, pair",
+      "en": "Two people, pair",
       "jp": "二人"
     },
     {
-      "en": "third day of month",
+      "en": "Third day of month",
       "jp": "三日"
     },
     {
-      "en": "fourth day of month",
+      "en": "Fourth day of month",
       "jp": "四日"
     },
     {
-      "en": "five",
-      "jp": "五"
+      "en": "Fifty five",
+      "jp": "五十五"
     },
     {
-      "en": "six",
-      "jp": "六"
+      "en": "Six times",
+      "jp": "六回"
     },
     {
-      "en": "seven",
-      "jp": "七"
+      "en": "Two hundred seventy one",
+      "jp": "二百七十一"
     },
     {
-      "en": "eight",
-      "jp": "八"
+      "en": "Eight times",
+      "jp": "八回"
     },
     {
-      "en": "nine",
-      "jp": "九"
+      "en": "Nine books",
+      "jp": "九冊の本"
     },
     {
-      "en": "tenth day of month",
+      "en": "Tenth day of month",
       "jp": "十日"
     },
     {
-      "en": "hundred",
-      "jp": "百"
+      "en": "One hundred men",
+      "jp": "百人の男"
     },
     {
-      "en": "thousand",
+      "en": "Boy",
+      "jp": "男の子"
+    },
+    {
+      "en": "Girl",
+      "jp": "女の子"
+    },
+    {
+      "en": "Thousand",
       "jp": "千"
     },
     {
-      "en": "ten thousand",
+      "en": "Ten thousand",
       "jp": "万"
     },
     {
-      "en": "twenty",
+      "en": "Twenty",
       "jp": "二十"
     },
     {
-      "en": "round, circular",
+      "en": "Round, circular",
       "jp": "円い"
     },
     {
-      "en": "week",
+      "en": "Week",
       "jp": "週"
     },
     {
-      "en": "day",
+      "en": "Day",
       "jp": "日"
     },
     {
-      "en": "month",
+      "en": "Month",
       "jp": "月"
     },
     {
-      "en": "year",
+      "en": "Year",
       "jp": "年"
     },
     {
-      "en": "hour, time",
+      "en": "Hour, time",
       "jp": "時"
     },
     {
-      "en": "minute",
+      "en": "Minute",
       "jp": "分"
     },
     {
-      "en": "noon",
+      "en": "Noon",
       "jp": "午"
     },
     {
-      "en": "now",
+      "en": "Now",
       "jp": "今"
     },
     {
-      "en": "yesterday",
+      "en": "Yesterday",
       "jp": "昨日"
     },
     {
-      "en": "tomorrow",
+      "en": "Tomorrow",
       "jp": "明日"
     },
     {
-      "en": "today",
+      "en": "Today",
       "jp": "今日"
     },
     {
-      "en": "before",
+      "en": "Before",
       "jp": "先"
     },
     {
-      "en": "last week",
+      "en": "Last week",
       "jp": "先週"
     },
     {
-      "en": "next month",
+      "en": "Next month",
       "jp": "来月"
     },
     {
-      "en": "every",
+      "en": "Every",
       "jp": "毎"
     },
     {
-      "en": "every day",
+      "en": "Every day",
       "jp": "毎日"
     },
     {
-      "en": "every week",
+      "en": "Every week",
       "jp": "毎週"
     },
     {
-      "en": "what",
+      "en": "Every time",
+      "jp": "毎回"
+    },
+    {
+      "en": "What",
       "jp": "何"
     }
 
