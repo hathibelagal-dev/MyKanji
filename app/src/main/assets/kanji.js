@@ -25,8 +25,8 @@ var kanji = {
       "jp": "六回"
     },
     {
-      "en": "Two hundred seventy one",
-      "jp": "二百七十一"
+      "en": "Country",
+      "jp": "国"
     },
     {
       "en": "Eight times",
@@ -143,7 +143,90 @@ var kanji = {
     {
       "en": "What",
       "jp": "何"
+    },
+    {
+      "en": "Mother",
+      "jp": "母"
+    },
+    {
+      "en": "Father",
+      "jp": "父"
+    },
+    {
+      "en": "Friend",
+      "jp": "友"
+    },
+    {
+      "en": "Fire",
+      "jp": "火"
+    },
+    {
+      "en": "Tree, wood",
+      "jp": "木"
+    },
+    {
+      "en": "Water",
+      "jp": "水"
+    },
+    {
+      "en": "Earth, ground",
+      "jp": "土"
+    },
+    {
+      "en": "Money, gold",
+      "jp": "金"
+    },
+    {
+      "en": "River",
+      "jp": "川"
+    },
+    {
+      "en": "Sky",
+      "jp": "空"
+    },
+    {
+      "en": "Blue sky, clear sky",
+      "jp": "青空"
+    },
+    {
+      "en": "Heaven",
+      "jp": "天"
+    },
+    {
+      "en": "Fish",
+      "jp": "魚"
+    },
+    {
+      "en": "Flower",
+      "jp": "花"
+    },
+    {
+      "en": "Mountain",
+      "jp": "山"
+    },
+    {
+      "en": "Rain",
+      "jp": "雨"
+    },
+    {
+      "en": "Japanese language",
+      "jp": "日本語"
+    },
+    {
+      "en": "Hand",
+      "jp": "手"
+    },
+    {
+      "en": "Mouth",
+      "jp": "口"
+    },
+    {
+      "en": "one with bachelor's degree",
+      "jp": "学士"
+    },
+    {
+      "en": "Noon, midday",
+      "jp": "日中"
     }
-
   ]
 }

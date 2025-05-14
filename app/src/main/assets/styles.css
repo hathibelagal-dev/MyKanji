@@ -1,5 +1,6 @@
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  user-select: none;
 }
 
 body {
@@ -86,7 +87,7 @@ body {
 }
 
 .kanji-text {
-    font-size: 64px;
+    font-size: 52px;
     color: #ff6fa7;
 }
 
@@ -112,6 +113,10 @@ body {
 
 .kanji-display-cat2 {
     background-image: url('cat2.png');
+}
+
+.kanji-display-cat3 {
+    background-image: url('cat3.png');
 }
 
 .kanji-display-cat1 {

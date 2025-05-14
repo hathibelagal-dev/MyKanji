@@ -52,6 +52,13 @@ function showRandomKanji() {
     document.querySelectorAll(".choice-button").forEach((button, index) => {
         button.innerText = kanji.items[answerIndices[index]].en;
     });
+
+    var catIndex = Math.floor(Math.random() * 3) + 1;
+    var catHTML = `
+    <div class="kanji-display-cat kanji-display-cat${catIndex}">
+    </div>
+    `;
+    document.getElementById("cat-container").innerHTML = catHTML;
 }
 
 function getKanjiInfo(kanji) {
