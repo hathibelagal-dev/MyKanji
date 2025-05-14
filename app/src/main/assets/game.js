@@ -62,7 +62,16 @@ function getKanjiInfo(kanji) {
     }
 }
 
+function playSound(s) {
+    s.currentTime = 0;
+    s.play().catch(e => {
+      console.log("Sound play failed:", e);
+    });
+}
+
 function showCorrectDialog() {
+    const wins = [win1, win2, win3];
+    playSound(wins[Math.floor(Math.random() * wins.length)]);
     document.getElementById("successDialog").style.display = "flex";
 }
 
@@ -72,6 +81,7 @@ function closeCorrectDialog() {
 }
 
 function showIncorrectDialog() {
+    playSound(lose);
     document.getElementsByClassName("correct-answer")[0].innerText = currentCorrectAnswer;
     document.getElementById("failDialog").style.display = "flex";
 }

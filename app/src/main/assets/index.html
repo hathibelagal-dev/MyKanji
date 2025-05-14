@@ -65,10 +65,24 @@
     <script src="kanji.js"></script>
     <script src="game.js"></script>
     <audio id="click-sound" src="click.mp3" preload="auto"></audio>
+    <audio id="win1-sound" src="win1.mp3" preload="auto"></audio>
+    <audio id="win2-sound" src="win2.mp3" preload="auto"></audio>
+    <audio id="win3-sound" src="win3.mp3" preload="auto"></audio>
+    <audio id="lose-sound" src="lose.mp3" preload="auto"></audio>
 
     <script>
         const sound = document.getElementById("click-sound");
         sound.volume = 0.5;
+
+        const win1 = document.getElementById("win1-sound");
+        const win2 = document.getElementById("win2-sound");
+        const win3 = document.getElementById("win3-sound");
+        const lose = document.getElementById("lose-sound");
+        win1.volume = 0.5;
+        win2.volume = 0.5;
+        win3.volume = 0.5;
+        lose.volume = 0.5;
+
         document.querySelectorAll(".choice-button").forEach(button => {
           button.addEventListener("click", () => {
             sound.currentTime = 0;
