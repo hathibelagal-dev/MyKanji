@@ -102,8 +102,12 @@ function start() {
                 saveGameState();
                 updateKanjiSeen();
                 showCorrectDialog();
+                document.querySelector(".streak").innerText = "Streak: " + gameState.streak;
             } else {
+                gameState.streak = 0;
                 showIncorrectDialog();
+                document.querySelector(".streak").innerText = "Streak: " + gameState.streak;
+                saveGameState();
             }
         });
     });
