@@ -168,4 +168,71 @@ body {
     font-size: 16px;
 }
 
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 240, 250, 0.85);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.dialog-box {
+  background: #fff0f8;
+  border: 3px solid #ffb6c1;
+  border-radius: 24px;
+  box-shadow: 0 6px 20px rgba(255, 182, 193, 0.4);
+  padding: 24px 32px;
+  max-width: 280px;
+  text-align: center;
+  font-family: "Noto Serif JP", serif;
+  animation: popIn 0.6s ease-out;
+}
+
+.dialog-header {
+  font-size: 26px;
+  font-weight: bold;
+  color: #d94f90;
+  margin-bottom: 12px;
+}
+
+.dialog-body {
+  font-size: 18px;
+  color: #804929;
+  margin-bottom: 16px;
+}
+
+.dialog-button {
+  background: linear-gradient(to bottom right, #ffd6e6, #ffccdd);
+  border: 2px solid #ff99bb;
+  border-radius: 18px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #5a3c3c;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.dialog-button:hover {
+  transform: scale(1.05);
+}
+
+.dialog-box.sad {
+  background: #fff5f7;
+  border-color: #f9a8c2;
+}
+
+.dialog-box.sad .dialog-header {
+  color: #b94e68;
+}
+
+.correct-answer {
+    font-weight: bold;
+}
 

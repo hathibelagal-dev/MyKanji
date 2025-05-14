@@ -63,11 +63,22 @@ function getKanjiInfo(kanji) {
 }
 
 function showCorrectDialog() {
+    document.getElementById("successDialog").style.display = "flex";
+}
 
+function closeCorrectDialog() {
+    document.getElementById("successDialog").style.display = "none";
+    showRandomKanji();
 }
 
 function showIncorrectDialog() {
+    document.getElementsByClassName("correct-answer")[0].innerText = currentCorrectAnswer;
+    document.getElementById("failDialog").style.display = "flex";
+}
 
+function closeIncorrectDialog() {
+    document.getElementById("failDialog").style.display = "none";
+    showRandomKanji();
 }
 
 function start() {

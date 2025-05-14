@@ -32,6 +32,36 @@
         <button class="choice-button">Eat</button>
         <button class="choice-button">Sleep</button>
     </div>
+
+    <div id="dialogs">
+        <div class="dialog-overlay" id="successDialog" style="display: none;">
+            <div class="dialog-box">
+                <div class="dialog-header">
+                    🎉 Good job!
+                </div>
+                <div class="dialog-body">
+                    You got it right! 🌸<br>
+                    Keep going, you’re doing great!
+                </div>
+                <button class="dialog-button" onclick="closeCorrectDialog()">OK</button>
+            </div>
+        </div>
+
+        <div class="dialog-overlay" id="failDialog" style="display: none;">
+            <div class="dialog-box sad">
+                <div class="dialog-header">
+                    😿 Oops!
+                </div>
+                <div class="dialog-body">
+                    That’s not quite right…<br>
+                    The correct answer is <br/>
+                    "<span class="correct-answer"></span>"
+                </div>
+                <button class="dialog-button" onclick="closeIncorrectDialog()">OK</button>
+            </div>
+        </div>
+    </div>
+
     <script src="kanji.js"></script>
     <script src="game.js"></script>
     <audio id="click-sound" src="click.mp3" preload="auto"></audio>
