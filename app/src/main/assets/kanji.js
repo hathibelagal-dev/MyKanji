@@ -29,6 +29,14 @@ var kanji = {
       "jp": "国"
     },
     {
+      "en": "Foreign country",
+      "jp": "外国"
+    },
+    {
+      "en": "China",
+      "jp": "中国"
+    },
+    {
       "en": "Eight times",
       "jp": "八回"
     },
@@ -73,12 +81,48 @@ var kanji = {
       "jp": "週"
     },
     {
+      "en": "Weekend",
+      "jp": "週末"
+    },
+    {
+      "en": "Eternity; 10,000 years",
+      "jp": "万年"
+    },
+    {
+      "en": "All people, everyone",
+      "jp": "万人"
+    },
+    {
       "en": "Day",
       "jp": "日"
     },
     {
       "en": "Month",
       "jp": "月"
+    },
+    {
+      "en": "Moonlight",
+      "jp": "月光"
+    },
+    {
+      "en": "Light",
+      "jp": "光"
+    },
+    {
+      "en": "New moon",
+      "jp": "新月"
+    },
+    {
+      "en": "Monday",
+      "jp": "月曜日"
+    },
+    {
+      "en": "Tuesday",
+      "jp": "火曜日"
+    },
+    {
+      "en": "Sunday",
+      "jp": "日曜日"
     },
     {
       "en": "Year",
