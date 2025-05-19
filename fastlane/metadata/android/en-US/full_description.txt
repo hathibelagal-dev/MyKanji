@@ -1,0 +1,11 @@
+<p>MyKanji is an interactive, pastel-themed Android app to help you practice and memorize basic
+Japanese kanji using multiple-choice questions, sound effects, and cat animations.</p>
+
+<h2>🎮 Features</h2>
+<ul>
+    <li>Random kanji quiz with English translations</li>
+    <li>4-choice questions with one correct answer</li>
+    <li>Correct and incorrect feedback dialogs</li>
+    <li>Tracks your current streak and kanji seen</li>
+    <li>Sound effects and animated cats for motivation</li>
+</ul>
