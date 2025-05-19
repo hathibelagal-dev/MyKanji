@@ -1,6 +1,6 @@
 # MyKanji
 
-An interactive, pastel-themed web app to help you practice and memorize basic
+An interactive, pastel-themed Android app to help you practice and memorize basic
 Japanese kanji using multiple-choice questions, sound effects, and cat animations.
 
 ## 🎮 Features
