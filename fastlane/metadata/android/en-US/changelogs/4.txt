@@ -1,0 +1,1 @@
+- Added `dependenciesInfo` block in `app/build.gradle` to exclude dependency metadata from APK (`includeInApk = false`). Reduces APK size slightly and aligns with privacy best practices.
