@@ -3,6 +3,11 @@
   user-select: none;
 }
 
+@font-face {
+  font-family:"Noto Serif JP";
+  src: url("notoserifjp.ttf") format("truetype");
+}
+
 body {
     background-color: #ffeef8;
     overflow: hidden;
@@ -29,7 +34,7 @@ body {
 
 .choice-button {
   touch-action: manipulation;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Serif JP', serif;
   font-size: 23px;
   font-weight: bold;
   padding: 14px 20px;
