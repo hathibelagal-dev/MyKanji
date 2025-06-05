@@ -3,6 +3,10 @@
 An interactive, pastel-themed Android app to help you practice and memorize basic
 Japanese kanji using multiple-choice questions, sound effects, and cat animations.
 
+[<img src="https://f-droid.org/badge/get-it-on.png"
+    alt="Get it on F-Droid"
+    height="80">](https://f-droid.org/packages/io.github.hathibelagal.mykanji)
+
 ## 🎮 Features
 
 - Random kanji quiz with English translations
