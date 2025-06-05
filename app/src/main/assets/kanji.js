@@ -197,6 +197,78 @@ var kanji = {
       "jp": "父"
     },
     {
+      "en": "Student",
+      "jp": "学生"
+    },
+    {
+      "en": "School",
+      "jp": "学校"
+    },
+    {
+      "en": "Sea",
+      "jp": "海"
+    },
+    {
+      "en": "Abroad",
+      "jp": "海外"
+    },
+    {
+      "en": "Sunrise",
+      "jp": "日の出"
+    },
+    {
+      "en": "Sunset",
+      "jp": "日没"
+    },
+    {
+      "en": "Sunlight",
+      "jp": "日光"
+    },
+    {
+      "en": "Sunny",
+      "jp": "晴れ"
+    },
+    {
+      "en": "Holiday, day off",
+      "jp": "休日"
+    },
+    {
+      "en": "Birthday",
+      "jp": "誕生日"
+    },
+    {
+      "en": "Memory",
+      "jp": "記憶"
+    },
+    {
+      "en": "To remember",
+      "jp": "思い出す"
+    },
+    {
+      "en": "Imagination",
+      "jp": "想像"
+    },
+    {
+      "en": "Writer, author",
+      "jp": "作家"
+    },
+    {
+      "en": "Wind, breeze",
+      "jp": "風"
+    },
+    {
+      "en": "Family",
+      "jp": "家族"
+    },
+    {
+      "en": "Housewife",
+      "jp": "主婦"
+    },
+    {
+      "en": "Homeland",
+      "jp": "国家"
+    },
+    {
       "en": "Friend",
       "jp": "友"
     },
@@ -261,8 +333,24 @@ var kanji = {
       "jp": "手"
     },
     {
+      "en": "Eye",
+      "jp": "目"
+    },
+    {
+      "en": "Ear",
+      "jp": "耳"
+    },
+    {
+      "en": "Foot, feet",
+      "jp": "足"
+    },
+    {
       "en": "Mouth",
       "jp": "口"
+    },
+    {
+      "en": "House",
+      "jp": "家"
     },
     {
       "en": "one with bachelor's degree",
