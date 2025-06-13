@@ -46,6 +46,7 @@ function showRandomKanji() {
     currentCorrectAnswer = randomKanji.en;
     currentKanji = randomKanji.jp;
     document.querySelector(".kanji-text").innerText = randomKanji.jp;
+    document.querySelector(".kana-text").innerText = randomKanji.jp_kana;
     var answerIndices = getThreeRandomAnswerIndices(randomIndex);
     answerIndices.push(randomIndex);
     answerIndices.sort(() => Math.random() - 0.5);
