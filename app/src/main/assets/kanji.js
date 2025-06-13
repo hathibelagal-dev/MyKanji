@@ -3,30 +3,37 @@ var kanji = {
     {
       en: "One person, alone",
       jp: "一人",
+      jp_kana: "ひとり"
     },
     {
       en: "Two people, pair",
       jp: "二人",
+      jp_kana: "ふたり"
     },
     {
       en: "Third day of month",
       jp: "三日",
+      jp_kana: "みっか"
     },
     {
       en: "Fourth day of month",
       jp: "四日",
+      jp_kana: "よっか"
     },
     {
       en: "Fifty five",
       jp: "五十五",
+      jp_kana: "ごじゅうご"
     },
     {
       en: "Six times",
       jp: "六回",
+      jp_kana: "ろっかい"
     },
     {
       en: "Country",
       jp: "国",
+      jp_kana: "くに"
     },
     {
       en: "Foreign country",

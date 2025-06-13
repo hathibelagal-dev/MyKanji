@@ -96,6 +96,19 @@ body {
     color: #ff6fa7;
 }
 
+.kana-text {
+    font-size: 16px;
+    color: #ff6fa7;
+}
+
+.kana-text::before {
+    content: "("
+}
+
+.kana-text::after {
+    content: ")"
+}
+
 .streak {
     font-size: 24px;
     color: #5c2a18;
@@ -169,7 +182,7 @@ body {
 }
 
 .header::after {
-    content: "v0.1";
+    content: "v1.6";
     margin-left: 8px;
     font-size: 16px;
 }

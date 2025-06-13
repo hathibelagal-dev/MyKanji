@@ -1,0 +1,2 @@
+- Fix for smaller screens
+- More kanji
