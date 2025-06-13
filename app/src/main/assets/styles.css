@@ -131,7 +131,7 @@ body {
 
 @media (max-width: 320px) {
     .kanji-display {
-        font-size: 48px;
+        font-size: 24px;
     }
 }
 
@@ -140,7 +140,7 @@ body {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(5px);
+    transform: translateY(8px);
   }
   100% {
       transform: translateY(0px);
@@ -182,8 +182,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background: rgba(255, 240, 250, 0.85);
   backdrop-filter: blur(4px);
   display: flex;
@@ -244,5 +244,42 @@ body {
 
 .correct-answer {
     font-weight: bold;
+}
+
+@media(max-width: 380px) {
+    .choice-button {
+        font-size: 18px;
+        padding: 12px;
+        margin-bottom: 8px;
+    }
+
+    .kanji-display {
+        padding: 16px;
+    }
+
+    .kanji-text {
+        font-size: 38px;
+    }
+
+    .streak {
+        font-size: 16px;
+    }
+
+    .kanji-display-cat {
+        width: 72px;
+        height: 72px;
+    }
+
+    .choices-question {
+        margin-bottom: 12px;
+    }
+
+    .header {
+        font-size: 24px;
+    }
+
+    .n-kanji-seen {
+        padding-bottom: 8px;
+    }
 }
 
